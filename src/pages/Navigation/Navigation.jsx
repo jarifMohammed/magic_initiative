@@ -125,7 +125,7 @@ const Header = () => {
           {/* LOGO */}
           <a href="/" className="flex items-center gap-2 flex-shrink-0">
             <img
-              src="public/magic_logo.png"
+              src="/magic_logo.png"
               alt="MAGIC Initiative Logo"
               className="h-10 w-auto object-contain"
             />

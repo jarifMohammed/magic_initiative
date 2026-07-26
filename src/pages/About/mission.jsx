@@ -156,7 +156,7 @@ const MissionVisionPage = () => {
             >
               <div className="aspect-square rounded-2xl overflow-hidden border-4 border-[#7b1e1e]/30 shadow-lg">
                 <img
-                  src="public/childrenWithTeacher.jpg"
+                  src="/childrenWithTeacher.jpg"
                   alt="Students at Magic Board School"
                   className="w-full h-full object-cover"
                 />
@@ -180,7 +180,7 @@ const MissionVisionPage = () => {
             >
               <div className="aspect-square rounded-2xl overflow-hidden border-4 border-[#7b1e1e]/30 shadow-lg">
                 <img
-                  src="public/learning.jpg"
+                  src="/learning.jpg"
                   alt="Climate action and education"
                   className="w-full h-full object-cover"
                 />

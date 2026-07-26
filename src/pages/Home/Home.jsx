@@ -60,7 +60,7 @@ const HomePage = () => {
         {/* Background Image with slow cinematic zoom */}
         <div className="absolute inset-0">
           <motion.img
-            src="/public/DSC07903.jpg"
+            src="/DSC07903.jpg"
             alt="Children learning at Magic Board School"
             className="w-full h-full object-cover"
             initial={{ scale: 1.12 }}
@@ -206,7 +206,7 @@ const HomePage = () => {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="public/childrenTeacherRaisingHand.jpg"
+              src="/childrenTeacherRaisingHand.jpg"
               alt="MAGIC Initiative in action"
               className="w-full h-[320px] object-cover"
             />
@@ -281,22 +281,22 @@ const HomePage = () => {
 
         <div className="flex flex-wrap justify-center items-center gap-10 opacity-90">
           <img
-            src="public/partner1.jpeg"
+            src="/partner1.jpeg"
             alt="Partner 1"
             className="h-20 sm:h-24 object-contain grayscale hover:grayscale-0 transition-all duration-300"
           />
           <img
-            src="public/partner3.jpg"
+            src="/partner3.jpg"
             alt="Partner 2"
             className="h-20 sm:h-24 object-contain grayscale hover:grayscale-0 transition-all duration-300"
           />
           <img
-            src="public/partner4.png"
+            src="/partner4.png"
             alt="Partner 3"
             className="h-20 sm:h-24 object-contain grayscale hover:grayscale-0 transition-all duration-300"
           />
           <img
-            src="public/partner2.png"
+            src="/partner2.png"
             alt="Partner 4"
             className="h-20 sm:h-24 object-contain grayscale hover:grayscale-0 transition-all duration-300"
           />

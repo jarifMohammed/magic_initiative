@@ -132,7 +132,7 @@ function SponsorChildPage() {
         {/* Replace /sponsor-hero.jpg with your own image (in /public) */}
         <div className="absolute inset-0">
           <img
-            src="/sponsor-hero.jpg"
+            src="/studentRaisingHand.jpg"
             alt="Sponsor a child"
             className="w-full h-full object-cover opacity-40"
           />
