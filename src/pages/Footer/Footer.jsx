@@ -4,6 +4,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa";
 import { FiHome, FiMail, FiPhone } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const usefulLinks = [
   { label: "Sponsor a Child",  href: "#" },
@@ -107,9 +108,9 @@ export default function Footer() {
         <p className="text-[#fde8e8] text-sm">
           © {new Date().getFullYear()} — MAGIC Initiative | All Rights Reserved
         </p>
-        <a href="/admin/login" className="text-[#fde8e8] text-xs opacity-50 hover:opacity-100 hover:underline transition-opacity ml-2">
+        <Link to="/admin/login" className="text-[#fde8e8] text-xs opacity-50 hover:opacity-100 hover:underline transition-opacity ml-2">
           Admin Login
-        </a>
+        </Link>
       </div>
 
     </footer>

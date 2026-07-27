@@ -27,7 +27,10 @@ import PaymentResult from "./pages/donation/PaymentResult.jsx";
 import AdminLogin from "./pages/admin/AdminLogin.jsx";
 import AdminDashboard from "./pages/admin/AdminDashboard.jsx";
 
-
+// Projects pages
+import OngoingProjectsPage from "./pages/projects/ongoingProject.jsx";
+import CompletedProjectsPage from "./pages/projects/completedProject.jsx";
+import ProjectDetailsPage from "./pages/projects/ProjectDetails.jsx";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -56,6 +59,14 @@ export default function App() {
         <Route path="/focus/research" element={<ResearchInnovationPage></ResearchInnovationPage>} />
         <Route path="/focus/youth" element={<VocationalTrainingPage></VocationalTrainingPage>} />
         <Route path="/focus/women" element={<WomenEmpowermentPage></WomenEmpowermentPage>} />
+        
+        {/* Projects / Programs Routes */}
+        <Route path="/projects/ongoing" element={<OngoingProjectsPage />} />
+        <Route path="/projects/completed" element={<CompletedProjectsPage />} />
+        <Route path="/projects/:id" element={<ProjectDetailsPage />} />
+        <Route path="/programs/current" element={<OngoingProjectsPage />} />
+        <Route path="/programs/completed" element={<CompletedProjectsPage />} />
+
         <Route path="/contact" element={<ContactPage></ContactPage>} />
         <Route path="/faq" element={<FAQPage></FAQPage>} />
         <Route path="/volunteer" element={<VolunteerPage/>} />
